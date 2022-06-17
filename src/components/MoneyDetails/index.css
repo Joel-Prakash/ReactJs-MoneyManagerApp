@@ -1,0 +1,108 @@
+@media (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .balance-container {
+    height: 100px;
+    width: 370px;
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .income-container {
+    height: 100px;
+    width: 370px;
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .expenses-container {
+    height: 100px;
+    width: 370px;
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .amount-text {
+    color: #475569;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Roboto;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  .amount {
+    color: #1e293b;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .balance-container {
+    height: 100px;
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .income-container {
+    height: 100px;
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .expenses-container {
+    height: 100px;
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .amount-text {
+    color: #475569;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Roboto;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  .amount {
+    color: #1e293b;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-top: 10px;
+  }
+}

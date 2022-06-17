@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  padding: 2% 4% 2% 4%;
+}
+
+@media (min-width: 768px) {
+  .welcome-container {
+    height: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    padding: 4px 10px 0px 50px;
+  }
+  .name {
+    color: #1e293b;
+    font-size: 25px;
+    font-family: Roboto;
+  }
+  .message {
+    color: #475569;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  span {
+    color: #0b69ff;
+  }
+  .all-money-details-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .transaction-history-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .transaction-container {
+    width: 35vw;
+    border: 1px solid #d7dfe9;
+    border-radius: 12px;
+    padding: 2% 3% 2% 3%;
+    margin-right: 10px;
+  }
+  .transaction-heading {
+    color: #1e293b;
+    font-size: 20px;
+    font-family: Roboto;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  label {
+    color: #7e858e;
+    font-size: 16px;
+    font-family: Roboto;
+    margin-bottom: 5px;
+  }
+  .input {
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #d7dfe9;
+    outline: none;
+    padding-left: 10px;
+  }
+  .add-button {
+    color: #ffffff;
+    background-color: #0b69ff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+  .history-container {
+    width: 55vw;
+    border: 1px solid #d7dfe9;
+    border-radius: 12px;
+    padding: 2% 3% 2% 3%;
+  }
+  .history-heading {
+    color: #1e293b;
+    font-size: 20px;
+    font-family: Roboto;
+  }
+  .history-table-container {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .history-table-heading-box {
+    border: 1px solid #d7dfe9;
+  }
+  .transaction-items-list {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .each-history-item {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+  }
+  .transaction-item-heading {
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto;
+  }
+}
+
+@media (max-width: 767px) {
+  .welcome-container {
+    height: 120px;
+    border-radius: 20px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    padding: 4px 10px 0px 50px;
+  }
+  .name {
+    color: #1e293b;
+    font-size: 22px;
+    font-family: Roboto;
+  }
+  .message {
+    color: #475569;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  span {
+    color: #0b69ff;
+  }
+  .all-money-details-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .transaction-container {
+    border: 1px solid #d7dfe9;
+    border-radius: 12px;
+    padding: 2% 3% 2% 3%;
+    margin-bottom: 10px;
+  }
+  .transaction-heading {
+    color: #1e293b;
+    font-size: 20px;
+    font-family: Roboto;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  label {
+    color: #7e858e;
+    font-size: 14px;
+    font-family: Roboto;
+    margin-bottom: 5px;
+  }
+  .input {
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #d7dfe9;
+    outline: none;
+    padding-left: 10px;
+  }
+  .add-button {
+    color: #ffffff;
+    background-color: #0b69ff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+  .history-container {
+    border: 1px solid #d7dfe9;
+    border-radius: 12px;
+    padding: 2% 3% 2% 3%;
+  }
+  .history-heading {
+    color: #1e293b;
+    font-size: 20px;
+    font-family: Roboto;
+  }
+  .history-table-container {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .history-table-heading-box {
+    border: 1px solid #d7dfe9;
+  }
+  .transaction-items-list {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .each-history-item {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+  }
+  .transaction-item-heading {
+    color: #1e293b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Roboto;
+  }
+}

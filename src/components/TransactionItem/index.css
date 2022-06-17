@@ -1,0 +1,32 @@
+.transaction-item-container {
+  display: flex;
+  align-items: center;
+  border-top: none;
+  border-left: 1px solid #d7dfe9;
+  border-right: 1px solid #d7dfe9;
+  border-bottom: 1px solid #d7dfe9;
+}
+.transaction-item {
+  color: #475569;
+  font-size: 15px;
+  font-family: Roboto;
+  width: 25%;
+  text-align: center;
+}
+.delete-button {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-left: 12%;
+}
+.delete-icon {
+  height: 23px;
+  width: 23px;
+  padding-left: 0px;
+}
